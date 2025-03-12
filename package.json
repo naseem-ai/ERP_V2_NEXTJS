@@ -1,0 +1,84 @@
+{
+  "name": "color-admin",
+  "version": "5.5.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@fullcalendar/bootstrap": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/list": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
+    "@iconify/react": "^5.2.0",
+    "@mona-health/react-input-mask": "^3.0.3",
+    "@react-google-maps/api": "^2.20.6",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "bootstrap-social": "^5.1.1",
+    "chart.js": "^4.4.8",
+    "datatables.net-bs5": "^2.2.2",
+    "datatables.net-buttons-bs5": "^3.2.2",
+    "datatables.net-fixedcolumns-bs5": "^5.0.4",
+    "datatables.net-react": "^1.0.0",
+    "datatables.net-responsive-bs5": "^3.0.4",
+    "flag-icons": "^7.3.2",
+    "jquery": "^3.7.1",
+    "jsvectormap": "^1.6.0",
+    "lity": "^2.4.1",
+    "masonry-layout": "^4.2.2",
+    "next": "15.2.2",
+    "photoswipe": "^5.4.4",
+    "quill": "^2.0.3",
+    "react": "^19.0.0",
+    "react-apexcharts": "^1.7.0",
+    "react-bootstrap-daterangepicker": "^8.0.0",
+    "react-color": "^2.19.3",
+    "react-countdown": "^2.3.6",
+    "react-datepicker": "^8.2.0",
+    "react-datetime": "^3.3.1",
+    "react-dom": "^19.0.0",
+    "react-highlight": "^0.15.0",
+    "react-notifications-component": "^4.0.1",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-quill-new": "^3.3.3",
+    "react-select": "^5.10.1",
+    "react-tag-input-component": "^2.0.2",
+    "sass": "1.63.6",
+    "simple-line-icons": "^2.5.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/bootstrap": "^5.2.10",
+    "@types/datatables.net-buttons": "^2.2.3",
+    "@types/masonry-layout": "^4.2.8",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-color": "^3.0.13",
+    "@types/react-dom": "^19",
+    "@types/react-highlight": "^0.12.8",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.2",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "react-datepicker": {
+      "react": ">=19.0.0",
+      "react-dom": ">=19.0.0"
+    },
+    "react-notifications-component": {
+      "react": ">=19.0.0",
+      "react-dom": ">=19.0.0"
+    },
+    "react-tag-input-component": {
+      "react": ">=19.0.0",
+      "react-dom": ">=19.0.0"
+    }
+  }
+}
