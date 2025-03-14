@@ -50,7 +50,7 @@ export default function Header() {
           </button>
         )}
         <Link href="/" className="navbar-brand">
-          <span className="navbar-logo"></span> <b>Color</b> Admin
+          <span className="navbar-logo"></span> <b>ERP</b> V2
         </Link>
 
         {settings.appHeaderMegaMenu && (
